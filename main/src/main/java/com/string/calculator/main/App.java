@@ -6,6 +6,10 @@ package com.string.calculator.main;
  */
 public class App {
 	public static int add(String numbers) {
-		return 0;
+		if (numbers.isEmpty()) {
+			return 0;
+		} else {
+			return 1;
+		}
 	}
 }
